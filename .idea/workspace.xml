@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39b9f4a-1317-4ba0-9656-3aa56b1a5b04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oopgroup14diamondworld/src/main/java/com/example/oopgroup14diamondworld/jeweler/model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +30,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Diamond-world-oop-project-" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Diamond-world-oop-project-" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +84,34 @@
       <workItem from="1743267059341" duration="514000" />
       <workItem from="1743272255016" duration="130000" />
       <workItem from="1743272413370" duration="832000" />
-      <workItem from="1743313283570" duration="1289000" />
+      <workItem from="1743313283570" duration="1446000" />
+      <workItem from="1743317283604" duration="27000" />
+      <workItem from="1743317366650" duration="77000" />
+      <workItem from="1743317501848" duration="217000" />
+      <workItem from="1743317736442" duration="419000" />
+      <workItem from="1743318220409" duration="145000" />
+      <workItem from="1743318383836" duration="58000" />
+      <workItem from="1743318459962" duration="646000" />
+      <workItem from="1743319146095" duration="114000" />
+      <workItem from="1743319326582" duration="24000" />
+      <workItem from="1743319366136" duration="41000" />
+      <workItem from="1743319451766" duration="23000" />
+      <workItem from="1743319508430" duration="657000" />
+      <workItem from="1743320201428" duration="342000" />
+      <workItem from="1743320700826" duration="133000" />
+      <workItem from="1743320967170" duration="373000" />
+      <workItem from="1743321495657" duration="13000" />
+      <workItem from="1743321657426" duration="26000" />
+      <workItem from="1743321747525" duration="29000" />
+      <workItem from="1743321840943" duration="363000" />
+      <workItem from="1743322494110" duration="17000" />
+      <workItem from="1743322524066" duration="18000" />
+      <workItem from="1743322552426" duration="619000" />
+      <workItem from="1743323230248" duration="159000" />
+      <workItem from="1743323426034" duration="1088000" />
+      <workItem from="1743324839698" duration="63000" />
+      <workItem from="1743324935761" duration="183000" />
+      <workItem from="1743377138994" duration="299000" />
     </task>
     <servers />
   </component>
