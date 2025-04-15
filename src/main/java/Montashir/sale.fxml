@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Montashir.sale">
+   <children>
+      <TableView layoutX="4.0" layoutY="82.0" prefHeight="153.0" prefWidth="584.0">
+        <columns>
+          <TableColumn fx:id="TableColumnId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="TableColumnCustomer" prefWidth="75.0" text="Customer" />
+            <TableColumn fx:id="TableColumnProduct" prefWidth="75.0" text="Product" />
+            <TableColumn fx:id="TableColumnSaleDate" prefWidth="75.0" text="saleDate" />
+            <TableColumn fx:id="TableColumnQuantity" prefWidth="75.0" text="Quantity" />
+            <TableColumn fx:id="TableColumnTotalAmount" prefWidth="75.0" text="TotalAmount" />
+            <TableColumn fx:id="TableColumnEmployee" prefWidth="75.0" text="Employee" />
+        </columns>
+      </TableView>
+      <Button fx:id="ButtonBack" layoutX="32.0" layoutY="28.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="ButtonLogOut" layoutX="485.0" layoutY="338.0" mnemonicParsing="false" text="LogOut" />
+   </children>
+</AnchorPane>
