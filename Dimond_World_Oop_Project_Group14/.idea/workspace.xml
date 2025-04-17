@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8732e546-5afc-4f33-804b-2772a096073f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/Customization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/FeedbackLoyalty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/InventoryOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/InvoicePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/JewelryCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/PromotionProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/PurchaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Al_Mahmud_Shafin/VendorAuthProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Cashier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Employee.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/SalesReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/SalesReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Transaction.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/customer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/purchase.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/sale.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/salesAssociate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/salesAssociate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/store.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/user1_view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Montashir/user2_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Design.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Design.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Appraisal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Appraisal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Jeweler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Jeweler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/MarketingCompaigh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/MarketingCompaigh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/MarketingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/MarketingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/Repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/SalesReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/SalesReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/User3_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/User3_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/User4_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/User4_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dimond_world_oop_project_group14/Meghna/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/dimond_world_oop_project_group14/Meghna/view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/dimond_world_oop_project_group14/Appraisal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/com/example/dimond_world_oop_project_group14/Appraisal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/dimond_world_oop_project_group14/Design.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/com/example/dimond_world_oop_project_group14/Design.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/dimond_world_oop_project_group14/MarketingCompaigh.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/dimond_world_oop_project_group14/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/com/example/dimond_world_oop_project_group14/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/com/example/dimond_world_oop_project_group14/MarketingCompaigh.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/com/example/dimond_world_oop_project_group14/MarketingCompaigh.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farizameghna&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farizameghna/Diamond-world-oop-project-.git&quot;,
+    &quot;accountId&quot;: &quot;741711a6-d815-4930-9be4-64194a72df8b&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2v7YzBiWiqaEekAKr6ww2WIDzOj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8732e546-5afc-4f33-804b-2772a096073f" name="Changes" comment="" />
+      <created>1743497843317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743497843317</updated>
+      <workItem from="1743497844622" duration="357000" />
+      <workItem from="1743498250184" duration="437000" />
+      <workItem from="1743498914866" duration="20000" />
+      <workItem from="1743533986062" duration="71000" />
+      <workItem from="1743534107948" duration="26000" />
+      <workItem from="1743534152105" duration="104000" />
+      <workItem from="1743558181444" duration="125000" />
+      <workItem from="1743650501128" duration="50000" />
+      <workItem from="1743780809386" duration="266000" />
+      <workItem from="1743781566630" duration="8000" />
+      <workItem from="1743858487157" duration="5221000" />
+      <workItem from="1744728067140" duration="168000" />
+      <workItem from="1744863767531" duration="2683000" />
+      <workItem from="1744866557893" duration="146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
