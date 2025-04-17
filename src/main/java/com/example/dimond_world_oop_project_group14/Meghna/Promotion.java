@@ -1,3 +1,5 @@
+package com.example.dimond_world_oop_project_group14.Meghna;
+
 import java.util.Date;
 
 public class Promotion {
@@ -37,7 +39,7 @@ public class Promotion {
 
     @Override
     public String toString() {
-        return "Promotion{" +
+        return "com.example.dimond_world_oop_project_group14.Promotion{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", datetime=" + datetime +

@@ -1,16 +1,12 @@
-package com.example.dimond_world_oop_project_group14.Meghna;
+package Montashir;
 
-import java.util.Date;
-
-public class Promotion {
+public class store {
     Integer id;
     String name;
-    Date datetime;
 
-    public Promotion(Integer id, String name, Date datetime) {
+    public store(Integer id, String name) {
         this.id = id;
         this.name = name;
-        this.datetime = datetime;
     }
 
     public Integer getId() {
@@ -29,20 +25,11 @@ public class Promotion {
         this.name = name;
     }
 
-    public Date getDatetime() {
-        return datetime;
-    }
-
-    public void setDatetime(Date datetime) {
-        this.datetime = datetime;
-    }
-
     @Override
     public String toString() {
-        return "Promotion{" +
+        return "store{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", datetime=" + datetime +
                 '}';
     }
 }

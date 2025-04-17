@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="515.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer ">
+   <children>
+      <AnchorPane layoutX="79.0" layoutY="58.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="-35.0" layoutY="29.0" prefHeight="200.0" prefWidth="288.0">
+               <children>
+                  <TableView layoutX="-14.0" layoutY="-17.0" prefHeight="273.0" prefWidth="393.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="Name" />
+                      <TableColumn fx:id="TableColumnContactNumber" prefWidth="75.0" text="contact number" />
+                        <TableColumn fx:id="TableColumnEmail" prefWidth="75.0" text="Email" />
+                        <TableColumn fx:id="TableColumnAddress" prefWidth="75.0" text="Address" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="ButtonDelivery" layoutX="158.0" layoutY="391.0" mnemonicParsing="false" text="Delivery" />
+      <Button fx:id="ButtonBack" layoutX="38.0" layoutY="22.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="ButtonLogOut" layoutX="578.0" layoutY="452.0" mnemonicParsing="false" text="LogOut" />
+   </children>
+</AnchorPane>
