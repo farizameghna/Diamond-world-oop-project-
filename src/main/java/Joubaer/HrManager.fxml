@@ -27,14 +27,15 @@
       <Button layoutX="443.0" layoutY="216.0" mnemonicParsing="false" onAction="#clearEmployeeField" text="clearEmployeeField" />
       <TextField fx:id="salaryField" layoutX="429.0" layoutY="111.0" prefHeight="25.0" prefWidth="145.0" />
       <Label layoutX="361.0" layoutY="115.0" text="salary" />
-      <TableView fx:id="tableViewField" layoutX="25.0" layoutY="270.0" prefHeight="101.0" prefWidth="502.0">
+      <TableView fx:id="tableViewField" layoutX="25.0" layoutY="270.0" prefHeight="107.0" prefWidth="601.0">
         <columns>
-          <TableColumn fx:id="tableIdColumnField" prefWidth="75.0" text="id" />
-          <TableColumn fx:id="tableNameColumnField" prefWidth="75.0" text="name" />
-            <TableColumn fx:id="tableNameColumnField" prefWidth="75.0" text="email" />
-            <TableColumn fx:id="tablePositionColumnField" prefWidth="75.0" text="postion" />
-            <TableColumn fx:id="tablePhoneColumnField" prefWidth="75.0" text="phone" />
+          <TableColumn fx:id="tableIdColumnField" prefWidth="85.0" text="id" />
+          <TableColumn fx:id="tableNameColumnField" prefWidth="87.0" text="name" />
+            <TableColumn fx:id="tableNameColumnField" prefWidth="111.0" text="email" />
+            <TableColumn fx:id="tablePositionColumnField" prefWidth="112.0" text="postion" />
+            <TableColumn fx:id="tablePhoneColumnField" minWidth="5.0" prefWidth="121.0" text="phone" />
+            <TableColumn prefWidth="82.0" text="salary" />
         </columns>
-       </TableView>
+      </TableView>
    </children>
 </AnchorPane>
