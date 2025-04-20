@@ -3,6 +3,16 @@ package Al_Mahmud_Shafin;
 public class PromotionProfile {
     String tier;
     String details;
+    @javafx.fxml.FXML
+    private Button buttonlogout;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumndiscounttier;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnname;
+    @javafx.fxml.FXML
+    private Button buttonback;
+    @javafx.fxml.FXML
+    private TableColumn tablecomuncontactdetails;
 
     public PromotionProfile(String details, String tier) {
         this.details = details;
