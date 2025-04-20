@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimond_world_oop_project_group14.Montashir.store">
+   <children>
+      <TableView layoutX="153.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="TableColumnId" prefWidth="75.0" text="ID" />
+        </columns>
+      </TableView>
+      <Button fx:id="ButtonBack" layoutX="64.0" layoutY="38.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="ButtonLogOut" layoutX="450.0" layoutY="297.0" mnemonicParsing="false" text="LogOut" />
+   </children>
+</AnchorPane>

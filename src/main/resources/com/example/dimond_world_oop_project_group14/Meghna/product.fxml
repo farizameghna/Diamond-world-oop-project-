@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="440.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimond_world_oop_project_group14.Product">
+   <children>
+      <TableView layoutX="9.0" layoutY="90.0" prefHeight="198.0" prefWidth="614.0">
+        <columns>
+          <TableColumn fx:id="TableColumnName" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="TableColumnId" prefWidth="75.0" text="Id" />
+            <TableColumn fx:id="TableColumnDescription" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="TableColumnPrice" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="TableColumnQuantity" prefWidth="75.0" text="Quantity" />
+            <TableColumn fx:id="TableColumnCategory" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="TableColumnMaterial" prefWidth="75.0" text="Material" />
+            <TableColumn fx:id="TableColumnGemstone" prefWidth="75.0" text="Gemstone" />
+        </columns>
+      </TableView>
+      <Button fx:id="ButtonBack" layoutX="38.0" layoutY="30.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="ButtonLogOut" layoutX="448.0" layoutY="336.0" mnemonicParsing="false" text="LogOut" />
+   </children>
+</AnchorPane>
