@@ -3,6 +3,16 @@ package Al_Mahmud_Shafin;
 public class InvoicePayment {
     Integer id;
     String status;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnpaymentstatus;
+    @javafx.fxml.FXML
+    private Button buttonlogout;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnname;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumninvoiceid;
+    @javafx.fxml.FXML
+    private Button buttonback;
 
     public InvoicePayment(String status, Integer id) {
         this.status = status;

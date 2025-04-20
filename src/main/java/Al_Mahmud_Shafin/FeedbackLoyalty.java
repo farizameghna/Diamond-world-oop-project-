@@ -3,6 +3,16 @@ package Al_Mahmud_Shafin;
 public class FeedbackLoyalty {
     String tier;
     String text;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnmermbershiptier;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnfile;
+    @javafx.fxml.FXML
+    private Button buttonlogout;
+    @javafx.fxml.FXML
+    private TableColumn tablecolumnname;
+    @javafx.fxml.FXML
+    private Button buttonback;
 
     public FeedbackLoyalty(String text, String tier) {
         this.text = text;
