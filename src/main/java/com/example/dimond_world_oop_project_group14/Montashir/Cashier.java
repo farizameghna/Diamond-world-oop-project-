@@ -1,13 +1,13 @@
-package Montashir;
+package com.example.dimond_world_oop_project_group14.Montashir;
 
-public class salesAssociate {
-    public salesAssociate(Integer id, String name) {
+public class Cashier {
+    Integer id;
+    String name;
+
+    public Cashier(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
-
-    Integer id;
-    String name;
 
     public Integer getId() {
         return id;
@@ -27,7 +27,7 @@ public class salesAssociate {
 
     @Override
     public String toString() {
-        return "salesAssociate{" +
+        return "Cashier{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

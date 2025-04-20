@@ -8,7 +8,7 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Montashir.salesAssociate"
+            fx:controller="com.example.dimond_world_oop_project_group14.Montashir.Cashier"
             prefHeight="400.0" prefWidth="600.0">
 
 </AnchorPane>

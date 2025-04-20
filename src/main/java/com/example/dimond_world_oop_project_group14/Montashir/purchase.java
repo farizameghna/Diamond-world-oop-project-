@@ -1,10 +1,15 @@
-package Montashir;
+package com.example.dimond_world_oop_project_group14.Montashir;
 
 import java.util.Date;
 
-public class Transaction {
+public class purchase {
     Integer id;
     Date datetime;
+
+    public purchase(Integer id, Date datetime) {
+        this.id = id;
+        this.datetime = datetime;
+    }
 
     public Integer getId() {
         return id;
@@ -22,14 +27,9 @@ public class Transaction {
         this.datetime = datetime;
     }
 
-    public Transaction(Integer id, Date datetime) {
-        this.id = id;
-        this.datetime = datetime;
-    }
-
     @Override
     public String toString() {
-        return "Transaction{" +
+        return "purchase{" +
                 "id=" + id +
                 ", datetime=" + datetime +
                 '}';
