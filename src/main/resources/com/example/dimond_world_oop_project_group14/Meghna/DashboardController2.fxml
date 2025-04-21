@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimond_world_oop_project_group14.Meghna.DashboardController2">
+   <children>
+      <Text fx:id="textMarketingManager" layoutX="241.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marketing Manager" />
+      <TextField fx:id="textfieldProductsell" layoutX="47.0" layoutY="102.0" text="Product sell" />
+      <TextField fx:id="textfieldMarketingCompaigh" layoutX="329.0" layoutY="102.0" text="Marketing Compaigh" />
+      <TextField fx:id="textfieldPromotion" layoutX="47.0" layoutY="175.0" text="Promotion" />
+      <TextField fx:id="textfieldMarketingManager" layoutX="329.0" layoutY="175.0" text="Marketing Manager" />
+      <TextField fx:id="textfieldEmployee" layoutX="47.0" layoutY="236.0" text="Employee " />
+      <TextField fx:id="textfieldManager" layoutX="329.0" layoutY="236.0" text="Manager" />
+      <Button fx:id="buttonLogout" layoutX="440.0" layoutY="318.0" mnemonicParsing="false" text="Logout" />
+   </children>
+</AnchorPane>
