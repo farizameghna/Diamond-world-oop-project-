@@ -2,18 +2,19 @@ package Joubaer;
 
 public class HrManager {
   public int hrId;
-  public String name,email,phone,department;
+  public double salary;
+  public String name,email,phone,position;
 
-  //constructor
     public HrManager() {
     }
 
-    public HrManager(int hrId, String name, String email, String phone, String department) {
+    public HrManager(int hrId, double salary, String name, String email, String phone, String position) {
         this.hrId = hrId;
+        this.salary = salary;
         this.name = name;
         this.email = email;
         this.phone = phone;
-        this.department = department;
+        this.position = position;
     }
 
     public int getHrId() {
@@ -22,6 +23,14 @@ public class HrManager {
 
     public void setHrId(int hrId) {
         this.hrId = hrId;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public String getName() {
@@ -48,22 +57,23 @@ public class HrManager {
         this.phone = phone;
     }
 
-    public String getDepartment() {
-        return department;
+    public String getPosition() {
+        return position;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     @Override
     public String toString() {
         return "HrManager{" +
                 "hrId=" + hrId +
+                ", salary=" + salary +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
-                ", department='" + department + '\'' +
+                ", position='" + position + '\'' +
                 '}';
     }
 }

@@ -5,17 +5,17 @@ import java.time.LocalDate;
 public class PerformanceReview {
     public int reviewId,employeeId;
     public LocalDate reviewDate;
-    public double rating;
+   // public double rating;
     public String reviewName,comments;
 
     public PerformanceReview() {
     }
 
-    public PerformanceReview(int reviewId, int employeeId, LocalDate reviewDate, double rating, String reviewName, String comments) {
+    public PerformanceReview(int reviewId, int employeeId, LocalDate reviewDate,  String reviewName, String comments) {
         this.reviewId = reviewId;
         this.employeeId = employeeId;
         this.reviewDate = reviewDate;
-        this.rating = rating;
+       // this.rating = rating;
         this.reviewName = reviewName;
         this.comments = comments;
     }
@@ -44,13 +44,13 @@ public class PerformanceReview {
         this.reviewDate = reviewDate;
     }
 
-    public double getRating() {
-        return rating;
-    }
+   // public double getRating() {
+       // return rating;
+    //}
 
-    public void setRating(double rating) {
-        this.rating = rating;
-    }
+   // public void setRating(double rating) {
+      //  this.rating = rating;
+    //}
 
     public String getReviewName() {
         return reviewName;
@@ -74,7 +74,7 @@ public class PerformanceReview {
                 "reviewId=" + reviewId +
                 ", employeeId=" + employeeId +
                 ", reviewDate=" + reviewDate +
-                ", rating=" + rating +
+              //  ", rating=" + rating +
                 ", reviewName='" + reviewName + '\'' +
                 ", comments='" + comments + '\'' +
                 '}';

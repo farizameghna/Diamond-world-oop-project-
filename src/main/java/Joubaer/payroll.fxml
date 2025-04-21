@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="494.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Joubaer.Payroll">
+   <children>
+      <TextField fx:id="employeeIdField" layoutX="127.0" layoutY="25.0" prefHeight="25.0" prefWidth="131.0" />
+      <Label layoutX="31.0" layoutY="29.0" text="employee Id" />
+      <TextField fx:id="payrollIdField" layoutX="447.0" layoutY="25.0" />
+      <Label layoutX="351.0" layoutY="29.0" text="payroll id" />
+      <TextField fx:id="salaryField" layoutX="118.0" layoutY="67.0" />
+      <Label layoutX="31.0" layoutY="71.0" text="basic salary" />
+      <TextField fx:id="taxField" layoutX="447.0" layoutY="67.0" />
+      <Label layoutX="333.0" layoutY="71.0" text="tax deduction" />
+      <TextField fx:id="bonusField" layoutX="127.0" layoutY="102.0" />
+      <Label layoutX="34.0" layoutY="106.0" text="bonus" />
+      <Button layoutX="360.0" layoutY="168.0" mnemonicParsing="false" onAction="#addTotalSalaryButton" text="addTotalSalary" />
+      <TableView fx:id="salaryTableField" layoutX="20.0" layoutY="218.0" prefHeight="135.0" prefWidth="637.0">
+        <columns>
+          <TableColumn fx:id="employeeIdColumnField" prefWidth="88.0" text="employee id" />
+          <TableColumn fx:id="payrollIdColumnField" prefWidth="98.0" text="payroll id" />
+            <TableColumn fx:id="basicSalaryColumnField" prefWidth="75.0" text="basic salary" />
+            <TableColumn fx:id="taxColumnField" prefWidth="98.0" text="tax" />
+            <TableColumn fx:id="bonusColumnField" prefWidth="75.0" text="bonus" />
+            <TableColumn fx:id="totalSalaryColumnField" prefWidth="75.0" text="total salary" />
+            <TableColumn fx:id="salaryDateColumnField" prefWidth="127.0" text="salary date" />
+        </columns>
+      </TableView>
+      <TextField fx:id="totalSalaryField" layoutX="447.0" layoutY="102.0" />
+      <Label layoutX="356.0" layoutY="106.0" text="total salary" />
+      <Label layoutX="37.0" layoutY="141.0" text="salary Date" />
+      <DatePicker layoutX="127.0" layoutY="137.0" />
+   </children>
+</AnchorPane>

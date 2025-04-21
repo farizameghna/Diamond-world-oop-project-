@@ -1,19 +1,25 @@
 package Joubaer;
 
+import java.time.LocalDate;
+
 public class CustomerSupport {
-    public int supportId;
-    public String customerName;
-    public int solveProblem, pendingProblem;
+    public int supportId, customerId;
+    public String customerName,supportType,issueDescription,status;
+    public LocalDate dateSubmission;
 
     public CustomerSupport() {
     }
 
-    public CustomerSupport(int supportId, String customerName, int solveProblem, int pendingProblem) {
+    public CustomerSupport(int supportId, int customerId, String customerName, String supportType, String issueDescription, String status, LocalDate dateSubmission) {
         this.supportId = supportId;
+        this.customerId = customerId;
         this.customerName = customerName;
-        this.solveProblem = solveProblem;
-        this.pendingProblem = pendingProblem;
+        this.supportType = supportType;
+        this.issueDescription = issueDescription;
+        this.status = status;
+        this.dateSubmission = dateSubmission;
     }
+
 
     public int getSupportId() {
         return supportId;
@@ -21,6 +27,14 @@ public class CustomerSupport {
 
     public void setSupportId(int supportId) {
         this.supportId = supportId;
+    }
+
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
     }
 
     public String getCustomerName() {
@@ -31,29 +45,48 @@ public class CustomerSupport {
         this.customerName = customerName;
     }
 
-    public int getSolveProblem() {
-        return solveProblem;
+    public String getSupportType() {
+        return supportType;
     }
 
-    public void setSolveProblem(int solveProblem) {
-        this.solveProblem = solveProblem;
+    public void setSupportType(String supportType) {
+        this.supportType = supportType;
     }
 
-    public int getPendingProblem() {
-        return pendingProblem;
+    public String getIssueDescription() {
+        return issueDescription;
     }
 
-    public void setPendingProblem(int pendingProblem) {
-        this.pendingProblem = pendingProblem;
+    public void setIssueDescription(String issueDescription) {
+        this.issueDescription = issueDescription;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public LocalDate getDateSubmission() {
+        return dateSubmission;
+    }
+
+    public void setDateSubmission(LocalDate dateSubmission) {
+        this.dateSubmission = dateSubmission;
     }
 
     @Override
     public String toString() {
         return "CustomerSupport{" +
                 "supportId=" + supportId +
+                ", customerId=" + customerId +
                 ", customerName='" + customerName + '\'' +
-                ", solveProblem=" + solveProblem +
-                ", pendingProblem=" + pendingProblem +
+                ", supportType='" + supportType + '\'' +
+                ", issueDescription='" + issueDescription + '\'' +
+                ", status='" + status + '\'' +
+                ", dateSubmission=" + dateSubmission +
                 '}';
     }
 }
