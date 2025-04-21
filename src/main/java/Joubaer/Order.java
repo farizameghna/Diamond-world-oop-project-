@@ -4,19 +4,21 @@ import java.time.LocalDate;
 
 public class Order {
     public int orderId, customerId;
+    public int quantity;
     public double totalAmount;
     public LocalDate orderDate;
-    public String itemList,paymentStatus,deliveryStatus;
+    public String productName,paymentStatus,deliveryStatus;
 
     public Order() {
     }
 
-    public Order(int orderId, int customerId, double totalAmount, LocalDate orderDate, String itemList, String paymentStatus, String deliveryStatus) {
+    public Order(int orderId, int customerId, int quantity, double totalAmount, LocalDate orderDate, String productName, String paymentStatus, String deliveryStatus) {
         this.orderId = orderId;
         this.customerId = customerId;
+        this.quantity = quantity;
         this.totalAmount = totalAmount;
         this.orderDate = orderDate;
-        this.itemList = itemList;
+        this.productName = productName;
         this.paymentStatus = paymentStatus;
         this.deliveryStatus = deliveryStatus;
     }
@@ -37,6 +39,14 @@ public class Order {
         this.customerId = customerId;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
     public double getTotalAmount() {
         return totalAmount;
     }
@@ -53,12 +63,12 @@ public class Order {
         this.orderDate = orderDate;
     }
 
-    public String getItemList() {
-        return itemList;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setItemList(String itemList) {
-        this.itemList = itemList;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public String getPaymentStatus() {
@@ -82,9 +92,10 @@ public class Order {
         return "Order{" +
                 "orderId=" + orderId +
                 ", customerId=" + customerId +
+                ", quantity=" + quantity +
                 ", totalAmount=" + totalAmount +
                 ", orderDate=" + orderDate +
-                ", itemList='" + itemList + '\'' +
+                ", productName='" + productName + '\'' +
                 ", paymentStatus='" + paymentStatus + '\'' +
                 ", deliveryStatus='" + deliveryStatus + '\'' +
                 '}';
