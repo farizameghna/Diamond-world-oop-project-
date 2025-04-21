@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dimond_world_oop_project_group14.Montashir.DashboardController">
+   <children>
+      <ButtonBar layoutX="30.0" layoutY="101.0" prefHeight="40.0" prefWidth="200.0" />
+      <TextField fx:id="TextFieldStore" layoutX="36.0" layoutY="69.0" promptText="Store" />
+      <TextField fx:id="TextFieldSalesReport" layoutX="36.0" layoutY="165.0" promptText="SalesReport" />
+      <TextField fx:id="TextFieldSale" layoutX="379.0" layoutY="165.0" promptText="Sale" />
+      <TextField fx:id="TextFieldTransaction" layoutX="209.0" layoutY="271.0" promptText="Transaction" />
+      <TextField fx:id="TextFieldSalesAssociate" layoutX="369.0" layoutY="63.0" promptText="SalesAssociate" />
+      <Button fx:id="ButtonLogin" layoutX="467.0" layoutY="326.0" mnemonicParsing="false" text="Login" />
+      <Text fx:id="TextSalesAssociate" layoutX="230.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SalesAssociate" />
+   </children>
+</AnchorPane>
