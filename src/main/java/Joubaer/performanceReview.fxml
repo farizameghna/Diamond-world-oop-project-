@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="515.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Joubaer.PerformanceReview">
+   <children>
+      <TextField fx:id="reviewIdField" layoutX="133.0" layoutY="36.0" />
+      <Label layoutX="43.0" layoutY="40.0" text="reviewId" />
+      <TextField fx:id="employeeIdField" layoutX="463.0" layoutY="36.0" />
+      <Label layoutX="366.0" layoutY="40.0" text="employeeId" />
+      <Label layoutX="43.0" layoutY="80.0" text="reviewDate" />
+      <DatePicker fx:id="reviewDateField" layoutX="121.0" layoutY="76.0" />
+      <Label layoutX="370.0" layoutY="89.0" text="comments" />
+      <TextField fx:id="commentsField" layoutX="463.0" layoutY="85.0" />
+      <Label layoutX="43.0" layoutY="124.0" />
+      <Label layoutX="43.0" layoutY="124.0" />
+      <Label layoutX="43.0" layoutY="124.0" text="reviewName" />
+      <RadioButton fx:id="excellentButton" layoutX="141.0" layoutY="124.0" mnemonicParsing="false" text="Excellent" />
+      <RadioButton fx:id="goodButtonField" layoutX="227.0" layoutY="124.0" mnemonicParsing="false" text="Good" />
+      <RadioButton fx:id="averageButton" layoutX="316.0" layoutY="124.0" mnemonicParsing="false" text="Average" />
+      <Button layoutX="50.0" layoutY="170.0" mnemonicParsing="false" onAction="#addPerformaceReviewButton" text="addPerformanceReview" />
+      <TableView fx:id="performaceTableView" layoutX="33.0" layoutY="235.0" prefHeight="147.0" prefWidth="624.0">
+        <columns>
+          <TableColumn fx:id="reviewIdColumnField" prefWidth="104.0" text="review id" />
+          <TableColumn fx:id="employeeIdColumnField" prefWidth="101.0" text="employee id" />
+            <TableColumn fx:id="reviewDateColumnField" prefWidth="119.0" text="review date" />
+            <TableColumn fx:id="reviewNameColumnField" prefWidth="89.0" text="review name" />
+            <TableColumn fx:id="commentsColumnField" prefWidth="210.0" text="comments" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
